@@ -300,7 +300,31 @@ Outputs `public/icons/icon-16.png`, `icon-48.png`, and `icon-128.png`.
 
 ---
 
+## Creators
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/venkatdhurjati">
+        <img src="https://github.com/venkatdhurjati.png" width="80" style="border-radius: 50%;" alt="Venkat Dhurjati" /><br/>
+        <strong>Venkat Dhurjati</strong>
+      </a><br/>
+      <a href="https://www.linkedin.com/in/venkatdhurjati/">LinkedIn</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/nandakdhurjati">
+        <img src="https://github.com/nandakdhurjati.png" width="80" style="border-radius: 50%;" alt="Nandak Dhurjati" /><br/>
+        <strong>Nandak Dhurjati</strong>
+      </a><br/>
+      <a href="https://www.linkedin.com/in/nandakdhurjati/">LinkedIn</a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
 <p align="center">
-  <sub>Built by <strong>Venkat Dhurjati</strong> & <strong>Nandak Dhurjati</strong></sub><br/>
-  <sub><a href="LICENSE">MIT License</a></sub>
+  <sub><a href="LICENSE">MIT License</a> &copy; Venkat Dhurjati & Nandak Dhurjati</sub>
 </p>

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "GTools: Developer Swiss Army Knife",
   "version": "1.0.0",
-  "description": "Zero-permission developer tools. Payload Modeler, JWT Inspector, Diff Viewer, Cron Parser, UUID Generator, and more. All executed locally.",
+  "description": "20 developer tools in your toolbar. JSON, JWT, Regex, Diff, QR, and more. 100% local, zero network requests.",
   "author": "Venkat Dhurjati & Nandak Dhurjati",
   "icons": {
     "16": "icons/icon-16.png",
