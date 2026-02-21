@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark-900 text-gray-200;
+    /* Chrome Extension popup dimensions */
+    width: 800px;
+    height: 600px;
+  }
+
+  body.tab-mode {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* Custom Scrollbar for a sleek look */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-dark-600 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-dark-500;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-dark-800/80 backdrop-blur-md border border-dark-700/50 rounded-xl;
+  }
+  .btn-primary {
+    @apply flex items-center justify-center gap-2 bg-gradient-to-r from-neon-blue to-neon-purple hover:opacity-90 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 shadow-lg shadow-neon-blue/20;
+  }
+  .btn-secondary {
+    @apply flex items-center justify-center gap-2 bg-dark-700 hover:bg-dark-600 text-gray-200 font-medium py-2 px-4 rounded-lg transition-all duration-300 border border-dark-600;
+  }
+  .input-field {
+    @apply w-full bg-dark-900/50 border border-dark-700 rounded-lg px-4 py-2 text-gray-200 focus:outline-none focus:ring-2 focus:ring-neon-blue/50 focus:border-neon-blue transition-all;
+  }
+}
+
+/* Selection */
+::selection {
+  background: rgba(59, 130, 246, 0.3);
+}
+
+/* Smooth focus transitions */
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.4);
+  border-radius: 4px;
+}
